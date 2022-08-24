@@ -7,7 +7,7 @@ public class Main {
 
         //homework 10
         int a = 6;
-        int b = 5;
+        int b = 10;
         int solution;
         int r = a % b;
         boolean isFound = false;
@@ -15,7 +15,8 @@ public class Main {
 
         //homework 10
         while(isFound == false){
-            if(a % b == 0) {
+            r = a % b;
+            if(r == 0) {
                 solution = b;
                 isFound = true;
                 System.out.println(solution);
